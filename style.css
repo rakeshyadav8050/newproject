@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#main{
+    height: 130vh;
+    width: 100%;
+    background-color: rgb(12, 12, 12); 
+    /* red krna hai  */
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+}
+#main hr{
+    color: black;
+}
+#nav{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(2, 2, 2);
+    color: white;
+}
+#navleft{
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+}
+#middle{
+    display: flex;
+    position: absolute;
+    left: 30%;
+    font-size: 19px;
+    justify-content: space-between;
+    width: 190px;
+    font-weight: 100;
+}
+#middle h6:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline blue;
+}
+#right{
+    display: flex;
+}
+#right h5{
+    margin-top: 
+    10px;
+}
+#right h5:hover{
+    color: blue;
+}
+#right button{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    font-size: 25px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+
+}
+#first{
+    height: 470px;
+    width: 100%;
+    
+    display: flex;
+    padding-top: 40px;
+    background-color: transparent;
+    margin-top: 20px;
+}
+#leftfirst{
+    height: 100%;
+    width: 60%;
+    background-color: transparent;
+    display: flex;
+    color: rgb(253, 251, 251);
+    
+    
+}
+#leftfirst h4{
+    font-size: 80px;
+    font-weight: 400;
+    position: absolute;
+    color: #000;
+    line-height: 110px;
+    letter-spacing: 10px;
+    color: white;
+    
+     
+}
+#leftfirst h5{
+    position: absolute;
+    font-size: 80px;
+    font-weight: 400;
+    top: 343px;
+    left: 220px;
+}
+
+#lefton{
+    background-image: url(https://imgs.search.brave.com/upDy6y2nKtJTmvcHmI5dNLnUNY-6OSi5F07lXlomsUk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9l/L2U5L1ZpcmF0X0tv/aGxpX0p1bmVfMjAx/Nl8oY3JvcHBlZCku/anBn);
+    /* background-color: rgb(179, 245, 13); */
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    position: absolute;
+    left: 53px;
+    border: 4px solid black;
+    cursor: pointer;
+}
+#photo{
+    position: absolute;
+    left: 89px;
+    top: 50%;
+}
+#leftone{
+    
+    /* background-color: rgb(62, 185, 28); */
+    background-image: url(https://imgs.search.brave.com/nE4bEy2TPY-rvpwyhQGt4N4UdtuevRV5GYc2GVeCjn0/rs:fit:500:0:0/g:ce/aHR0cDovL20uZ2V0/dHl3YWxscGFwZXJz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMC8wMy9EaG9u/aS1XYWxscGFwZXJz/LmpwZw);
+    background-size: cover;
+    background-position: top;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    position: absolute;
+    left: -6px;
+    border: 4px solid black;
+    cursor: pointer;
+}
+#leftones{
+    
+    /* background-color: rgb(15, 116, 225); */
+    background-image: url(https://imgs.search.brave.com/ro7_hJC04F16sni0m8iNaWR-x6WwgCOHZ2gOpO8NCh4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWc0/LmZyZXNoZXJzbGl2/ZS5jb20vZW50ZXJ0/YWlubWVudC8yMDIw/LzA2L3NodWJtYW4t/Z2lsbC01ZWVkOGVl/ZmNiZTA1LTE1OTI2/MjY5MjctOTAwLndl/YnA);
+    background-size: cover;
+    background-position: top;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    position: relative;
+    left: -60px;
+    border: 4px solid black;
+    cursor: pointer;
+}
+#hro{
+    height: 10px;
+    width: 50%;
+    background-color:transparent;
+    position:absolute;
+    top: 65%;
+    
+    
+}
+#downtext{
+    height: 70px;
+    width: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 68%;
+    
+    
+}
+#pahla:hover{
+    color: blue;
+    text-decoration: underline ;
+    cursor: pointer;
+}
+#rightfirst{
+    height:470px;
+    width: 50%;
+    border-radius: 20px;
+    background-image: url(https://imgs.search.brave.com/11eyYqUqtb-P-S7LbgJ0y0yhniNeUCF-iHPttENKhaE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/MzA1NjgzMjE3OTAt/NjVlZGNjNTFiNTQ0/P2l4bGliPXJiLTQu/MC4zJml4aWQ9TTN3/eE1qQTNmREI4TUh4/elpXRnlZMmg4TVRS/OGZHaHZkQ1V5TUdk/cGNteHpmR1Z1ZkRC/OGZEQjhmSHd3Jnc9/MTAwMCZxPTgw.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+#rightfirst p{
+    font-weight: 500;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    
+}
+#downdiv{
+    height: 40px;
+    width: 100%;
+    background-color:transparent;
+    position: relative;
+    top: 290px;
+    border: 3px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+#downdiv:hover{
+    cursor: pointer;
+    
+}
+#pagetwo{
+    height: 400px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+#pagetwoboxone{
+    height: 270px;
+    width: 24%;
+    /* background-color: green; */
+    border-radius: 10px;
+    color: white;
+    /* display: flex; */
+}
+#up{
+     display: flex; 
+     justify-content: space-around;
+     width: 190px;
+     /* background-color: red; */
+     height: 90px;
+}
+#up h4{
+    font-size: 35px;
+    cursor: pointer;
+    
+}
+#up h4:hover{
+    color: rgb(0, 217, 255);
+}
+#secbo{
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+#secbo:hover{
+    border: 2px solid blue;
+    color: blue;
+}
+#thrbo{
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+#thrbo:hover{
+    
+    color: blue;
+    border: 2px solid rgb(52, 11, 216);
+}
+#fourbo{
+    height: 40px;
+    width: 80px;
+    background-color: transparent;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+#fourbo:hover{
+    border: 2px solid blue;
+    color: blue;
+}
+#pagetwoboxtwo{
+    height: 270px;
+    width: 24%;
+    background-color: rgb(254, 78, 3);
+    border-radius: 10px;
+}
+#pagetwoboxtwo p{
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    margin-left: 20px;
+}
+#pagetwoboxtwo h1{
+    font-size: 50px;
+    margin-top: 105px;
+    margin-left: 20px;
+}
+#pagetwoboxthree{
+    height: 270px;
+    width: 24%;
+    background-color: rgba(249, 252, 249, 0.871);
+    border-radius: 10px;
+    
+}
+#pagetwoboxthree h4{
+    margin-top: 120px;
+    margin-left: 20px;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+#pagetwoboxthree p{
+    margin-left: 270px;
+    margin-top: 24px;
+    font-size: 29px;
+    
+}
+#pagetwoboxfour{
+    height: 270px;
+    width: 24%;
+    background-color: rgb(240, 240, 6);
+    border-radius: 10px;
+}
+#pagetwoboxfour p{
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#pagetwoboxfour h2{
+    margin-top: 110px;
+    font-size: 60px;
+    margin-left: 20px;
+}
